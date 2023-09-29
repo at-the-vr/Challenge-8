@@ -1,40 +1,70 @@
--- ds.page: Welcome to doc-site
+-- import: fifthtry.github.io/button
+-- import: fastn-community.github.io/lato-typography
+-- import: at-the-vr.github.io/challenge-8/lib
 
+-- ds.page:
 
-⚡️ `doc-site` will help you create a beautiful documentation site in no time.
+-- ftd.column: 
+width.fixed.px: 650
+background.solid: $theBgColor
+padding-vertical.px: 50
+border-radius.px: 10
 
-It provides out-of-the-box documentation features that can be used to create any
-kind of site(personal website, blog, etc).
+-- ftd.column: 
+width.fixed.px: 500
+align-self: center
 
-[Click here](https://fastn-community.github.io/doc-site/) to read doc-site
-documentation.
+-- lib.input-area:
+label: Name
+placeholder: Enter your name
 
--- ds.h3: 🚀 Fast Track 
+-- lib.input-area:
+label: City
+placeholder: Enter your city 
 
-Create your first fastn [web-site](https://fastn.com/expander/hello-world/-/build/) 
-project in just 5 minutes!
+-- lib.input-area:
+label: Education
+placeholder: Enter your education details
 
--- ds.h3: 🌟 Whats next?
+-- lib.input-area:
+label: Job Profile
+placeholder: Enter your Job Profile
 
-Create your first page. 
-[Click here to know more](https://fastn-community.github.io/doc-site/components/page/).
+-- lib.input-area:
+label: Phone Number
+placeholder: Enter your phone number
 
--- ds.h3: 👀 Want to learn more?
+-- lib.input-area:
+label: Github account URL
+placeholder: Enter your Github account url
 
-Feel free to check [our expander course](https://fastn.com/expander/) or jump
-into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+-- lib.input-area:
+label: Why you want to become fastn ambassador
+placeholder: Write your answer here
+height: 100
 
+-- lib.input-area:
+label: How can you help fastn grow
+placeholder: Write your answer here
+height: 100
 
--- ds.h3: 🎯 Used by?
+-- ftd.row: 
+align-self: end 
+margin-vertical.px: 30
 
-Our all documentation sites uses this `doc-site` theme.
+-- button.button: Submit
+role: primary
+medium: true
+link: #
 
-- [fastn.com](https://fastn.com/home/)
-- [FifthTry.com](https://www.fifthtry.com/)
+-- end: ftd.row
 
--- ds.h2: Learn fastn and become a pro?
+-- end: ftd.column
 
-You are one click away, just check [our documentation](https://fastn.com/) and 
-dont forget to jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+-- end: ftd.column
 
 -- end: ds.page
+
+-- ftd.color theBgColor: 
+light: #F4F0F4 
+dark: #181818

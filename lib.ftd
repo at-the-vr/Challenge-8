@@ -1,0 +1,34 @@
+-- component input-area:
+string label: Default Label
+string placeholder: Default place holder
+integer height: 44
+
+-- ftd.column: 
+
+-- ftd.text: $input-area.label
+color: $theTextColor
+padding-vertical.px: 10
+style: bold
+role: $inherited.types.copy-regular
+    
+-- ftd.text-input:
+color: $theTextColor
+placeholder: $input-area.placeholder
+role: $inherited.types.copy-regular
+text-align: start
+padding.px: 10
+width.fixed.px: 500
+background.solid: $theInputBgColor
+height.fixed.px: $input-area.height
+
+-- end: ftd.column
+
+-- end: input-area
+
+-- ftd.color theTextColor: 
+light: #181818
+dark: #F4F0F4 
+
+-- ftd.color theInputBgColor: 
+light: #E4E0E4 
+dark: #252525
